@@ -7,7 +7,7 @@ export default function Main() {
     // function handleClick(){
     //     alert('alertss')
     // }
-    const [ingredients, setIngredients] = React.useState(["chicken", "all the main spices", "corn", "heavy cream", "pasta"])
+    const [ingredients, setIngredients] = React.useState([])
     const ingredientsListItems = ingredients.map(ingredient => (
         <li key={ingredient}>{ingredient}</li>
     ))
