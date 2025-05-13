@@ -22,7 +22,7 @@ export default function Main() {
     const recipeSection = React.useRef(null)
 
     React.useEffect(() => {
-        recipeSection.current.scrollIntoView({behavior: "smooth"})
+        recipeSection.current?.scrollIntoView({behavior: "smooth"})
     },[recipe])
 
     // console.log(ingredients)
